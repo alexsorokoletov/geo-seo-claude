@@ -2,9 +2,9 @@
   <img src="assets/banner.svg" alt="GEO-SEO Claude Code Skill" width="900"/>
 </p>
 
-> **This is a pinned fork** of [`zubair-trabzada/geo-seo-claude`](https://github.com/zubair-trabzada/geo-seo-claude), frozen at the [`pinned`](https://github.com/alexsorokoletov/geo-seo-claude/tree/pinned) tag.
+> **This is a pinned fork** of [`zubair-trabzada/geo-seo-claude`](https://github.com/zubair-trabzada/geo-seo-claude), frozen at commit [`a8cd957`](https://github.com/alexsorokoletov/geo-seo-claude/commit/a8cd95755280599295e3d0903c66fd5c86745383).
 >
-> All install URLs reference the `pinned` tag, so you always get a **known, security-reviewed version**. If the upstream repo updates, this fork stays unchanged until manually synced, re-reviewed, and the tag is moved.
+> The install commands below reference that exact commit SHA, so you always get a **known, security-reviewed version** — commit SHAs are immutable and can't be changed without detection. If the upstream repo updates, this fork stays unchanged until manually synced and re-reviewed.
 
 <p align="center">
   <strong>GEO-first, SEO-supported.</strong> Optimize websites for AI-powered search engines<br/>
@@ -50,7 +50,7 @@ No API keys required. Everything runs locally through Claude Code's existing too
 ### One-Command Install (macOS/Linux)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/pinned/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/a8cd95755280599295e3d0903c66fd5c86745383/install.sh | bash
 ```
 
 ### Manual Install
@@ -67,7 +67,7 @@ Requires [Git for Windows](https://git-scm.com/downloads) which includes Git Bas
 
 ```bash
 # Option 1: One-command install (run from Git Bash, not PowerShell/CMD)
-curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/pinned/install-win.sh | bash
+curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/a8cd95755280599295e3d0903c66fd5c86745383/install-win.sh | bash
 
 # Option 2: Manual install
 git clone https://github.com/alexsorokoletov/geo-seo-claude.git
