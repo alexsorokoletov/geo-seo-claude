@@ -17,6 +17,21 @@
 
 ---
 
+## What This Does
+
+This is a **Claude Code skill** — a set of prompt files and Python scripts that teach Claude Code how to perform SEO audits optimized for AI search engines (GEO = Generative Engine Optimization).
+
+After install, you get `/geo` slash commands inside Claude Code. These commands tell Claude how to fetch, analyze, and score websites across dimensions that matter for AI search visibility: whether AI bots can crawl your site, how likely AI models are to cite your content, how well your structured data helps AI understand your pages, and more.
+
+**How it works under the hood:**
+- **Skills** (`.claude/skills/`) — Markdown files with detailed prompts that tell Claude what to do for each `/geo` command (e.g., how to score citability, what to check in robots.txt)
+- **Agents** (`.claude/agents/`) — Subagent definitions that Claude launches in parallel during a full audit (AI visibility, technical SEO, content quality, schema, platform analysis)
+- **Scripts** (`.claude/skills/geo/scripts/`) — Python utilities for page fetching, citability scoring, brand scanning, and PDF report generation. Claude calls these as needed.
+
+No API keys required. Everything runs locally through Claude Code's existing tools (WebFetch, Bash, Read/Write).
+
+---
+
 ## Why GEO Matters (2026)
 
 | Metric | Value |

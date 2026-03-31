@@ -291,7 +291,7 @@ main() {
     echo "    /geo report <url>     Client-ready GEO report"
     echo "    /geo report-pdf       Generate PDF report from audit data"
     echo ""
-    echo "  Documentation: https://github.com/zubair-trabzada/geo-seo-claude"
+    echo "  Documentation: https://github.com/alexsorokoletov/geo-seo-claude"
     echo ""
 }
 
