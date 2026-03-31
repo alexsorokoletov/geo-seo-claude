@@ -2,9 +2,9 @@
   <img src="assets/banner.svg" alt="GEO-SEO Claude Code Skill" width="900"/>
 </p>
 
-> **This is a pinned fork** of [`zubair-trabzada/geo-seo-claude`](https://github.com/zubair-trabzada/geo-seo-claude), frozen at commit [`64ac49f`](https://github.com/alexsorokoletov/geo-seo-claude/commit/64ac49f).
+> **This is a pinned fork** of [`zubair-trabzada/geo-seo-claude`](https://github.com/zubair-trabzada/geo-seo-claude), frozen at the [`pinned`](https://github.com/alexsorokoletov/geo-seo-claude/tree/pinned) tag.
 >
-> The install scripts in this fork point here and checkout that exact commit, so you get a **known, security-reviewed version** instead of whatever `main` happens to be upstream. If the upstream repo updates, this fork stays unchanged until manually synced and re-reviewed.
+> All install URLs reference the `pinned` tag, so you always get a **known, security-reviewed version**. If the upstream repo updates, this fork stays unchanged until manually synced, re-reviewed, and the tag is moved.
 
 <p align="center">
   <strong>GEO-first, SEO-supported.</strong> Optimize websites for AI-powered search engines<br/>
@@ -50,7 +50,7 @@ No API keys required. Everything runs locally through Claude Code's existing too
 ### One-Command Install (macOS/Linux)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/pinned/install.sh | bash
 ```
 
 ### Manual Install
@@ -67,7 +67,7 @@ Requires [Git for Windows](https://git-scm.com/downloads) which includes Git Bas
 
 ```bash
 # Option 1: One-command install (run from Git Bash, not PowerShell/CMD)
-curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/main/install-win.sh | bash
+curl -fsSL https://raw.githubusercontent.com/alexsorokoletov/geo-seo-claude/pinned/install-win.sh | bash
 
 # Option 2: Manual install
 git clone https://github.com/alexsorokoletov/geo-seo-claude.git
