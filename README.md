@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="GEO-SEO Claude Code Skill" width="900"/>
 </p>
 
-> **This is a pinned fork** of [`zubair-trabzada/geo-seo-claude`](https://github.com/zubair-trabzada/geo-seo-claude), frozen at commit [`c04c523`](https://github.com/alexsorokoletov/geo-seo-claude/commit/c04c52377ffc7f8429a62a7debd9726f8f9f2086).
+> **This is a pinned fork** of [`zubair-trabzada/geo-seo-claude`](https://github.com/zubair-trabzada/geo-seo-claude), frozen at commit [`a78ec19`](https://github.com/alexsorokoletov/geo-seo-claude/commit/a78ec19).
 >
 > The install scripts in this fork point here and checkout that exact commit, so you get a **known, security-reviewed version** instead of whatever `main` happens to be upstream. If the upstream repo updates, this fork stays unchanged until manually synced and re-reviewed.
 

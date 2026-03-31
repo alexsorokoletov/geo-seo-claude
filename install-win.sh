@@ -7,7 +7,7 @@ set -euo pipefail
 # ============================================================
 
 REPO_URL="https://github.com/alexsorokoletov/geo-seo-claude.git"
-PINNED_COMMIT="c04c52377ffc7f8429a62a7debd9726f8f9f2086"
+PINNED_COMMIT="a78ec19e2925a7063940af8eebff30f8b1c60537"
 CLAUDE_DIR="${HOME}/.claude"
 SKILLS_DIR="${CLAUDE_DIR}/skills"
 AGENTS_DIR="${CLAUDE_DIR}/agents"
