@@ -6,7 +6,8 @@ set -euo pipefail
 # Run this script from Git Bash, NOT PowerShell or CMD.
 # ============================================================
 
-REPO_URL="https://github.com/zubair-trabzada/geo-seo-claude.git"
+REPO_URL="https://github.com/alexsorokoletov/geo-seo-claude.git"
+PINNED_COMMIT="c04c52377ffc7f8429a62a7debd9726f8f9f2086"
 CLAUDE_DIR="${HOME}/.claude"
 SKILLS_DIR="${CLAUDE_DIR}/skills"
 AGENTS_DIR="${CLAUDE_DIR}/agents"
@@ -154,9 +155,13 @@ main() {
         print_info "Installing from local directory..."
         SOURCE_DIR="$SCRIPT_DIR"
     else
-        print_info "Cloning from repository..."
-        git clone --depth 1 "$REPO_URL" "$TEMP_DIR/repo" || {
+        print_info "Cloning from repository (pinned to ${PINNED_COMMIT:0:7})..."
+        git clone "$REPO_URL" "$TEMP_DIR/repo" || {
             print_error "Failed to clone repository. Check your internet connection."
+            exit 1
+        }
+        git -C "$TEMP_DIR/repo" checkout "$PINNED_COMMIT" --quiet || {
+            print_error "Failed to checkout pinned commit $PINNED_COMMIT."
             exit 1
         }
         SOURCE_DIR="${TEMP_DIR}/repo"
